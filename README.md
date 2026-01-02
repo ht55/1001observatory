@@ -27,6 +27,12 @@ The user selects only *which cross-section to observe*.
 
 ## Basic Usage
 
+https://1001observatory.vercel.app
+
+This application is optimized for the latest versions of Chrome and Firefox.
+Some features or layouts may not work correctly in Safari.
+
+
 ### 1. Enter your OpenAI API Key
 
 This tool uses **your own OpenAI API Key**.
@@ -39,7 +45,13 @@ This tool uses **your own OpenAI API Key**.
 ### 2. Select an Original Text
 
 Choose the short text that serves as the origin point of collapse.  
-(Original texts are from **Aozorabunko: https://www.aozora.gr.jp**)
+
+All source texts used in this project are in the public domain.
+
+Sources:
+- Aozora Bunko (https://www.aozora.gr.jp)
+- Reconstructed / reorganized by the project author
+- Original authors unknown
 
 ---
 
