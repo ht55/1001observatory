@@ -17,7 +17,7 @@ const STORIES = [
   { id: "nopperabou", label: "のっぺらぼう (設計者再編)" },
   { id: "greek_myth", label: "ギリシャ神話：シーシュポスの神話 (設計者再編)" },
   { id: "kumonoito", label: "芥川龍之介：蜘蛛の糸 (設計者再編)" },
-  { id: "kafka_okite", label: "カフカ：掟の掟の前で (設計者再編)" },
+  { id: "kafka_okite", label: "カフカ：掟の前で (設計者再編)" },
   { id: "kaguyahime", label: "竹取物語 (設計者再編)" },
   { id: "kitakaze_taiyou", label: "イソップ寓話：北風と太陽 (設計者再編)" },
   { id: "nagon_makuranosoushi", label: "清少納言：枕草子" },
