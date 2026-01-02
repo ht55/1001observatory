@@ -92,7 +92,7 @@ export default function Home() {
 
       <div className="content">
         <main className="glass">
-          <h1>1001: ショートショート崩壊観測台</h1>
+          <h1>1001: ショートショート崩壊観測所</h1>　
 
           {/* ===== 上段：設定 ===== */}
           <section className="setup-section">
