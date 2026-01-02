@@ -35,8 +35,8 @@ body {
   max-height: 65vh;
   padding: 1.6rem;
 
-  background: #dbdfe0a7;
-  backdrop-filter: blur(2px);
+  background: #e1e8ea67;
+  backdrop-filter: blur(1px);
 
   border-radius: 10px;
   border: 6px solid #090704;
@@ -51,7 +51,7 @@ body {
 }
 
 .glass h1 {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 50px; 
   text-align: center;
