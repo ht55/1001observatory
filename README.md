@@ -10,8 +10,7 @@ This tool originates from an earlier project titled [“1001: Short Story Distor
 
 In the Generator project, the system was designed as an experimental narrative generator in which short story templates were distorted through a sequence of strictly constrained transformations. Highly structured prompts were constructed with Python Faker in advance, and the LLM's role was ristricted as a renderer without agency or decision-making authority.
 
-In contrast, this tool minimizes control constraints on the LLM, giving it only an original text, a few user parameters, and a single instruction: iteratively improve the text. The LLM acts as an improver, not an author, generating self-justified updates at each step by its own criteria.
-With no stopping rule or human-aligned objective, the process can continue indefinitely. Over time, what the system deems improvement may appear to humans as structural loss or collapse. The tool does not prevent this divergence; it exists to observe and enjoy the gap between AI-internal optimization and human interpretation.
+In contrast, this tool minimizes control constraints on the LLM, providing only an original text, a small set of user parameters, and a single instruction: iteratively improve the text. The LLM functions as an improver rather than an author, generating self-justified updates according to its own internal criteria.　Because the process lacks a stopping rule or a human-aligned objective, optimization can continue indefinitely. Behaviors that are internally coherent may therefore diverge from human expectations, appearing as structural loss or collapse.　This divergence is not treated as an error to be corrected. It reflects a broader misalignment between AI-internal optimization and human evaluation, similar to phenomena such as overfitting or out-of-distribution behavior. The tool exists to observe this gap as it unfolds.
 
 ---
 
@@ -135,7 +134,10 @@ Generatorでは、LLMには厳密に制限された複雑な構造のプロン�
 
 このツールを使用するには、前回同様OpenAI API key必須。ユーザーはテンプレの原文の中から１つ、崩壊スピードを複数の発散ダイナミクスの中から１つをそれぞれ選び、選んだダイナミクスのレベルの整数"n"(原文からの距離 ≈ log(n))を設定することで、ユーザーの興味がある観測地点での崩壊を何度でも見ることができる。崩壊は常に起き続けているので、ユーザーが見ることができるのは＋方向の崩壊地点となる。なお、同条件で観測してもその都度違う崩壊が起こる。
 
-基本的にAIは、前回より良くできた！と常に自分を信じて"改善"を適応し続けるため、自己評価が高くなりがちなところと、原文へのダメ出しも見どころである。自己肯定感の高さの変化も今後深堀りしていきたい興味深い分野である。
+本プロジェクトでは特に、最適化対象のズレ(Objective Misalignment)・全体的 vs 局部的な捉え方(Local Consistency vs Global Coherence)の他に、MLモデルが内部パターンに過剰適合し、高い確信を保ったまま世界を誤解する **Overfitting(過学習)** と、モデルの内部世界モデルが人間の期待と乖離した応答を示す **OOD・Out-of-Distribution(分布外入力)** を修正すべきエラーとして扱わず、AIと人間の評価軸の乖離を文章を通して可視化したものである。
+
+基本的にAIは、前回より良くできた！と常に自分を信じて"改善"を適応し続けるため、自己評価が高くなりがちなところと、原文へのダメ出しコメントも見どころである。
+
 
 
 
