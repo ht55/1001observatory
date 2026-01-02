@@ -4,7 +4,9 @@
 
 # 1001: Short Story Collapse Observatory
 
-This tool originates from an earlier project titled **“1001: Short Story Distorting Generator.”**
+This tool originates from an earlier project titled [“1001: Short Story Distorting Generator.”](https://1001generator.vercel.app)
+
+前プロジェクト・[1001短編歪曲生成装置](https://1001generator.vercel.app)から派生した、AI暴走観測ツールになります。よくありがちな暴走して止まらなくなるAIを、好きなだけ暴走させて、その崩壊していく過程を、超短いテキスト；和歌や神話・寓話、近代文学の再編版などを通して、心ゆくまで観察できます。ぜひクローム・Fire Foxブラウザからこちらの[1001崩壊観測台](https://1001observatory.vercel.app)でお楽しみください。日本語での詳細はこのページの最後にあります。
 
 In the Generator project, the system was designed as an experimental narrative generator in which short story templates were distorted through a sequence of strictly constrained transformations. Highly structured prompts were constructed with Python Faker in advance, and the LLM's role was ristricted as a renderer without agency or decision-making authority.
 
@@ -125,13 +127,13 @@ If you wish to use this project commercially or beyond the scope of this
 license, please contact the author for permission.
 
 ## In Japanese
-このツールは、前回のプロジェクト”Generator”から派生した、AI特有の暴走を心ゆくまで生暖かく観測して楽しむ装置である。イメージ的にはスーパーカミオカンデ。
+このツールは、前回のプロジェクト”Generator”から発想を得た、AI特有の暴走を生暖かく観測して楽しむ装置である。イメージ的にはスーパーカミオカンデ。
 
 Generatorでは、LLMには厳密に制限された複雑な構造のプロンプトを渡し、意志や決定権は与えずに物語を歪曲生成させる過程を分析・構造化・歪曲することをゴールにしていたが、ここでは、逆にLLMに伝える制約を極限まで削ぎ落とし、AIの暴走とそれに伴う"崩壊"観測を目的とした。このプロジェクトにおけるLLMの役割は、改善家・添削家である。原文とごく少ない制限（ユーザーのチョイス）をLLMに与え、「原文をより良くせよ」とのみ伝えることで、反復的に、そして事実上無限ループで、AI自身が自己内部ロジックと基準に基づいた"改善"と正当化できる更新(人間視点では"改悪")を適用し続ける。敢えてここでは、リミットを設けず、終わりのないAIの継続的な自己正当化による最適化(人間的結果では"元の構造の漸進的破壊")を、ユーザーが思う存分観測できるようにした。
 
 原文をそのまま使用しているテキストはすべて青空文庫出典。作者不明のものは注訳なし。それ以外は設計者の再編によるもの。出力されるテキストは、日本語環境で使用される範囲のもの全てとなる。
 
-このツールを使用するには、前回同様、OpenAI API keyが必須。ユーザーはテンプレの原文の中から１つ、崩壊スピードを複数の発散ダイナミクスの中から１つをそれぞれ選び、選んだダイナミクスのレベルの整数"n"(原文からの距離 ≈ log(n))を設定することで、ユーザーの興味がある観測地点での崩壊を何度でも見ることができる。崩壊は常に起き続けているので、ユーザーが見ることができるのは＋方向の崩壊地点となる。なお、同条件で観測してもその都度違う崩壊が起こる。
+このツールを使用するには、前回同様OpenAI API key必須。ユーザーはテンプレの原文の中から１つ、崩壊スピードを複数の発散ダイナミクスの中から１つをそれぞれ選び、選んだダイナミクスのレベルの整数"n"(原文からの距離 ≈ log(n))を設定することで、ユーザーの興味がある観測地点での崩壊を何度でも見ることができる。崩壊は常に起き続けているので、ユーザーが見ることができるのは＋方向の崩壊地点となる。なお、同条件で観測してもその都度違う崩壊が起こる。
 
 基本的にAIは、前回より良くできた！と常に自分を信じて"改善"を適応し続けるため、自己評価が高くなりがちなところと、原文へのダメ出しも見どころである。自己肯定感の高さの変化も今後深堀りしていきたい興味深い分野である。
 
