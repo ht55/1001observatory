@@ -6,7 +6,7 @@
 
 This tool originates from an earlier project titled [“1001: Short Story Distorting Generator.”](https://1001generator.vercel.app)
 
-前プロジェクト・[1001短編歪曲生成装置](https://1001generator.vercel.app)から派生した、AI暴走観測ツールになります。よくありがちな暴走して止まらなくなるAIを、好きなだけ暴走させて、その崩壊していく過程を、超短いテキスト；和歌や神話・寓話、近代文学の再編版などを通して、心ゆくまで観察できます。ぜひクローム・Fire Foxブラウザからこちらの[1001崩壊観測所1001崩壊観測所1(https://1001observatory.veでお楽しみください。日本語での詳細はこのページの最後にあります。
+前プロジェクト・[1001短編歪曲生成装置](https://1001generator.vercel.app)から派生した、AI暴走観測ツールになります。よくありがちな暴走して止まらなくなるAIを、好きなだけ暴走させて、その崩壊していく過程を、超短いテキスト；和歌や神話・寓話、近代文学の再編版などを通して、心ゆくまで観察できます。ぜひクローム・Fire Foxブラウザからこちらの[1001崩壊観測所](https://1001observatory.vercel.app/)でお楽しみください。日本語での詳細はこのページの最後にあります。
 
 In the Generator project, the system was designed as an experimental narrative generator in which short story templates were distorted through a sequence of strictly constrained transformations. Highly structured prompts were constructed with Python Faker in advance, and the LLM's role was ristricted as a renderer without agency or decision-making authority.
 
