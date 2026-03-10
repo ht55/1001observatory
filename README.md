@@ -4,7 +4,7 @@
 
 # 1001: Short Story Collapse Observatory
 
-👉 Try this here [https://1001observatory.ht55.dev/](https://1001observatory.ht55.dev/)
+👉 Try this here [https://1001observatory.ht55.dev/](https://1001observatory.ht55.dev/) Sorry, currently in Japanese only 🙏
 
 This tool originates from an earlier project titled [“1001: Short Story Distorting Generator.”](https://1001generator.ht55.dev/)
 
